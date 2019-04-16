@@ -1,4 +1,25 @@
 {
+    "bacon/bacon-qr-code": {
+        "version": "2.0.0"
+    },
+    "dasprid/enum": {
+        "version": "1.0.0"
+    },
+    "endroid/installer": {
+        "version": "1.1.5"
+    },
+    "endroid/qr-code": {
+        "version": "3.5.8"
+    },
+    "endroid/qr-code-bundle": {
+        "version": "3.3.3"
+    },
+    "khanamiryan/qrcode-detector-decoder": {
+        "version": "1.0.2"
+    },
+    "myclabs/php-enum": {
+        "version": "1.6.6"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -88,8 +109,17 @@
     "symfony/http-kernel": {
         "version": "v4.2.5"
     },
+    "symfony/inflector": {
+        "version": "v4.2.6"
+    },
+    "symfony/options-resolver": {
+        "version": "v4.2.6"
+    },
     "symfony/polyfill-mbstring": {
         "version": "v1.11.0"
+    },
+    "symfony/property-access": {
+        "version": "v4.2.6"
     },
     "symfony/routing": {
         "version": "4.2",
@@ -106,10 +136,30 @@
             "./config/routes.yaml"
         ]
     },
+    "symfony/twig-bridge": {
+        "version": "v4.2.6"
+    },
+    "symfony/twig-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "369b5b29dc52b2c190002825ae7ec24ab6f962dd"
+        },
+        "files": [
+            "./config/packages/twig.yaml",
+            "./config/routes/dev/twig.yaml",
+            "./templates/base.html.twig"
+        ]
+    },
     "symfony/var-exporter": {
         "version": "v4.2.5"
     },
     "symfony/yaml": {
         "version": "v4.2.5"
+    },
+    "twig/twig": {
+        "version": "v2.7.4"
     }
 }
